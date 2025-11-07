@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | CareConnect Hospital</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ======= Navbar ======= -->
+  <header>
+     <nav>
+    <div class="logo"><i class="fa-solid fa-hospital"></i> MediCare+</div>
+    <div class="links">
+      <a href="index.html">Home</a>
+      <a href="register.html">Register</a>
+      <a href="appointment.html">Appointments</a>
+      <a href="doctor-schedule.html">Doctors</a>
+      <a href="contact.html">Contact</a>
+      <button id="openLogin">Login</button>
+    </div>
+  </nav>
+  </header>
+
+  <!-- ======= Contact Section ======= -->
+  <section class="contact-section">
+    <div class="contact-container">
+      <h2>📞 Get in Touch</h2>
+      <p>We’d love to hear from you. Please fill out the form below and our team will get back to you shortly.</p>
+
+      <form id="contactForm">
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <input type="tel" placeholder="Phone Number" required>
+        <textarea rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+
+      <div class="contact-info">
+        <p><strong>📍 Address:</strong> 123 CareConnect Lane, Chandigarh, India</p>
+        <p><strong>📞 Phone:</strong> +91 98765 43210</p>
+        <p><strong>✉️ Email:</strong> support@careconnect.com</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Footer ======= -->
+  <footer>
+    <p>&copy; 2025 CareConnect | All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById("contactForm").addEventListener("submit", function(event){
+      event.preventDefault();
+      alert("✅ Thank you for reaching out! We’ll get back to you soon.");
+      this.reset();
+    });
+  </script>
+
+</body>
+</html>
