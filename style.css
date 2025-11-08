@@ -242,7 +242,7 @@ nav .links a.active {
   justify-content: center;
 
   /* 🌆 Hospital background image */
-  background: url("book.jpg") 
+  background: url("movie.jpg") 
               no-repeat center center/cover;
 
   /* optional dark overlay for readability */
@@ -489,5 +489,6 @@ nav .links a.active {
   text-align: left;
   line-height: 1.6;
 }
+
 
 
